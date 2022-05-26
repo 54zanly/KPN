@@ -2,7 +2,9 @@
 The code of *Kernel Proposal Network for Arbitrary Shape Text Detection*.  
 The paper has been  accepted by TNNLS 2022, which is available at: https://arxiv.org/abs/2203.06410
 
-# Prerequisites
+## Log
+
+## Prerequisites
 PyTorch >= 1.2.0
 torchvision
 
@@ -18,18 +20,22 @@ Shapely
 tensorboardX
 tqdm
 
-# Image
+## Dataset
+
 Put your texting images in the floders of 
 ```
-"../../data_model/data/total-text-mat/Images/Test/"
-"../../data_model/data/ctw1500/test/text_image/"
-"../../data_model/data/Icdar2015/Test/" 
+"data_and_model/data/total-text-mat/Images/Test/"
+"data_and_model/data/ctw1500/test/text_image/"
+"data_and_model/data/Icdar2015/Test/"
 ```
 
 You can change the relative path "../../data_model/" in util/config.py: config.data_model_path = "../../data_model/"
 
+## Train
 
-# Run
+### TODO
+
+# Eval
 You can get the model weight at [model](https://drive.google.com/file/d/1WvJUTggqYXBkKtu3vSvIJQ_A7b7ZYER9/view?usp=sharing). And unzip them in current path.
 
 You can run the code by:
