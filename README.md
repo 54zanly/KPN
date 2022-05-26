@@ -29,7 +29,7 @@ Put your texting images in the floders of
 "data_and_model/data/Icdar2015/Test/"
 ```
 
-You can change the relative path "../../data_model/" in util/config.py: config.data_model_path = "../../data_model/"
+You can change the relative path "data_and_model/" in util/config.py: config.data_model_path = "data_and_model/"
 
 ## Train
 
