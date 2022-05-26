@@ -275,6 +275,7 @@ class KPN_Net(nn.Module):
         list_gt_kernels = []
         list_pred_xys = []
         if istrain:
+            # Add by mingliangxu.
             pass
 
         for batch in range(nms_score.shape[0]):
@@ -288,13 +289,16 @@ class KPN_Net(nn.Module):
             ########### get gt box nums ##########
             box_num = 0
             if istrain:
+                # Add by minliangxu.
                 pass
             ###########-------end--------get gt box nums ##########
 
             ########### get gt kernels ##########
-            gt_kernels = None
+            gt_kernels = []
             if istrain and box_num > 0:
+                # Add by mingliangxu.
                 pass
+                
             ###########-------end-------- get gt kernels##########
 
             ########### get pred kernels ##########
@@ -306,6 +310,7 @@ class KPN_Net(nn.Module):
             t_eval1_1 = time.time()
             # nums, labels = cv2.connectedComponents(one_pred_center[0], connectivity=4)
             if istrain:
+                # Add by mingliangxu.
                 pass
             else:
                 nums, labels = cv2.connectedComponents(one_pred_center[0], connectivity=4)
@@ -333,6 +338,7 @@ class KPN_Net(nn.Module):
                 pred_xs = torch.cat(pred_xs)
                 pred_ys = torch.cat(pred_ys)
                 if istrain:
+                    # Add by mingliangxu.
                     pass
                 else:
                     pred_kernels = f_kernel[batch][:, pred_ys, pred_xs]
