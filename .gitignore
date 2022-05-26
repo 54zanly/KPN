@@ -1,1 +1,4 @@
 model/
+vis/
+data_and_model/
+__pycache__/
