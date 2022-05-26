@@ -10,7 +10,7 @@ config.xy_embedding = []
 config.torch_xy_embedding = {}
 
 # path for data and pretrained models
-config.data_model_path = "../../data_model/"
+config.data_model_path = "data_and_model/"
 
 # min area size, don't care
 config.min_area_DNC = 100
